@@ -1,0 +1,86 @@
+[
+  {
+    "index": 1,
+    "image_path": "./benchmark/./images/1.png",
+    "annotated_path": "./benchmark_eval_results/0000_annotated.png",
+    "roi_path": "./benchmark_eval_results/0000_roi.png",
+    "question": "what color are the majority of people on the padio wearing?",
+    "ground_truth": "The majority of people on the padio are wearing black.",
+    "argus_answer": "The majority of people on the padio in Image 1 appear to be wearing black.",
+    "baseline_answer": "The majority of people on the sidewalk in the image appear to be wearing various colors, but there is no single dominant color that can be said to be the most common. The crowd is diverse, with people wearing different colors such as black, white, blue, red, and others. It's difficult to determine a specific color that is worn by the majority without a more detailed analysis or a color frequency count.",
+    "argus_similarity": "0.92174125",
+    "baseline_similarity": "0.4604347"
+  },
+  {
+    "index": 2,
+    "image_path": "./benchmark/./images/2.png",
+    "annotated_path": "./benchmark_eval_results/0001_annotated.png",
+    "roi_path": "./benchmark_eval_results/0001_roi.png",
+    "question": "What animal is on the roof?",
+    "ground_truth": "A cat is on the roof.",
+    "argus_answer": "The animal on the roof in Image 1 is a cat.",
+    "baseline_answer": "The animal on the roof appears to be a cat.",
+    "argus_similarity": "0.78003156",
+    "baseline_similarity": "0.8847489"
+  },
+  {
+    "index": 3,
+    "image_path": "./benchmark/./images/3.png",
+    "annotated_path": "./benchmark_eval_results/0002_annotated.png",
+    "roi_path": "./benchmark_eval_results/0002_roi.png",
+    "question": "How many kids are hanging on the monket bars?",
+    "ground_truth": "There are 2 (two) kids hanging on the monkey bars.",
+    "argus_answer": "There are two kids hanging on the monkey bars in Image 2, which is a zoomed-in section of Image 1.",
+    "baseline_answer": "In the image, there are two children hanging on the monkey bars in the playground area.",
+    "argus_similarity": "0.8090995",
+    "baseline_similarity": "0.8693155"
+  },
+  {
+    "index": 4,
+    "image_path": "./benchmark/./images/4.png",
+    "annotated_path": "./benchmark_eval_results/0003_annotated.png",
+    "roi_path": "./benchmark_eval_results/0003_roi.png",
+    "question": "What time is it?",
+    "ground_truth": "The hour hand is pointing at 10 and the minute hand is pointing a little past 10 minutes. 10:11, 10:12, 10:13",
+    "argus_answer": "The time shown on the clock in Image 1 is 3:05.",
+    "baseline_answer": "The image shows a clock in the top right corner of the pool area, which indicates the time as 10:10.",
+    "argus_similarity": "0.57793593",
+    "baseline_similarity": "0.62123364"
+  },
+  {
+    "index": 5,
+    "image_path": "./benchmark/./images/4.png",
+    "annotated_path": "./benchmark_eval_results/0004_annotated.png",
+    "roi_path": "./benchmark_eval_results/0004_roi.png",
+    "question": "How many people are in the hot tub?",
+    "ground_truth": "There are 3 (three) people in the hot tub.",
+    "argus_answer": "There are five people in the hot tub shown in Image 2.",
+    "baseline_answer": "There are six people in the hot tub.",
+    "argus_similarity": "0.7895539",
+    "baseline_similarity": "0.8510193"
+  },
+  {
+    "index": 6,
+    "image_path": "./benchmark/./images/5.png",
+    "annotated_path": "./benchmark_eval_results/0005_annotated.png",
+    "roi_path": "./benchmark_eval_results/0005_roi.png",
+    "question": "What animals are on top of the pumpkins? And how many are there?",
+    "ground_truth": "The animals on top of the pumkins are dogs. There are 2 (two) dogs on top of the pumpkins.",
+    "argus_answer": "There are two animals on top of the pumpkins in the zoomed crop (Image 2).",
+    "baseline_answer": "There is one animal on top of the pumpkins, which appears to be a white dog.",
+    "argus_similarity": "0.74245644",
+    "baseline_similarity": "0.75602144"
+  },
+  {
+    "index": 7,
+    "image_path": "./benchmark/./images/5.png",
+    "annotated_path": "./benchmark_eval_results/0006_annotated.png",
+    "roi_path": "./benchmark_eval_results/0006_roi.png",
+    "question": "What is on top of the black motorcycle? And what color is it?",
+    "ground_truth": "There is a helmet on top of the black motorcycle. It is blue.",
+    "argus_answer": "There is a person sitting on top of the black motorcycle in Image 2. The person appears to be wearing a helmet, which is likely black as well.",
+    "baseline_answer": "The black motorcycle in the image has a helmet placed on top of it. The helmet appears to be red and white in color.",
+    "argus_similarity": "0.81118405",
+    "baseline_similarity": "0.8864678"
+  }
+]
